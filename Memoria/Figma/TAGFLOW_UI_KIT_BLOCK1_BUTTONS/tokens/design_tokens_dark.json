@@ -1,0 +1,21 @@
+{
+  "colors": {
+    "gradient_start": "#7D2BFF",
+    "gradient_end": "#009DFF",
+    "primary_text": "#FFFFFF",
+    "button_disabled_bg": "#2A2A2F",
+    "button_disabled_text": "#7A7880"
+  },
+  "radii": {
+    "button": "14px"
+  },
+  "spacing": {
+    "button_v": "12px",
+    "button_h": "20px"
+  },
+  "typography": {
+    "button_font": "Inter",
+    "button_size": "16px",
+    "button_weight": "600"
+  }
+}

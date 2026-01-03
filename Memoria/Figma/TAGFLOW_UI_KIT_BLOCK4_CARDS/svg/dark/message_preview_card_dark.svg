@@ -1,0 +1,6 @@
+
+<svg xmlns='http://www.w3.org/2000/svg' width='360' height='200'>
+  <rect width='360' height='200' rx='16' fill='#1C1C23' stroke='#2A2A2F'/>
+  <text x='20' y='40' font-family='Inter' font-size='18' fill='#FFFFFF'>Message Preview Card</text>
+  <text x='20' y='80' font-family='Inter' font-size='14' fill='#FFFFFF' opacity='0.6'>Hi-Fi placeholder structure</text>
+</svg>

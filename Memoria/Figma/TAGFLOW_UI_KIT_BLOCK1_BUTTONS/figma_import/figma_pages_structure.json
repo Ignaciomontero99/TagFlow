@@ -1,0 +1,17 @@
+{
+  "pages": [
+    {
+      "name": "UI Kit",
+      "frames": [
+        "Buttons"
+      ]
+    },
+    {
+      "name": "Screens",
+      "frames": [
+        "Login",
+        "Home"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# MySQL / Docker
+*.sock
+mysql.sock
+data/db/
+mysql-rds/data/db/
