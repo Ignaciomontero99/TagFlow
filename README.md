@@ -4,6 +4,15 @@ TagFlow es una red social multiplataforma (web y móvil) basada en un sistema de
 
 El proyecto tiene como objetivo ofrecer una plataforma moderna donde los usuarios puedan crear publicaciones, interactuar entre ellos y descubrir contenido a través de categorías y etiquetas organizadas de forma estructurada.
 
+![TFG](https://img.shields.io/badge/Proyecto-TFG-blue)
+![Status](https://img.shields.io/badge/Estado-En%20desarrollo-yellow)
+![Backend](https://img.shields.io/badge/Backend-Symfony-black?logo=symfony)
+![Database](https://img.shields.io/badge/Database-MySQL-blue?logo=mysql)
+![Frontend](https://img.shields.io/badge/Frontend-React%20%2F%20React%20Native-61dafb?logo=react)
+![API](https://img.shields.io/badge/API-REST-green)
+![Auth](https://img.shields.io/badge/Auth-JWT-orange)
+![License](https://img.shields.io/badge/Licencia-Educativa-lightgrey)
+
 ---
 
 ## 🧠 Concepto del proyecto
