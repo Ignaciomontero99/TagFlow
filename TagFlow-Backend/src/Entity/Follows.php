@@ -1,6 +1,8 @@
 <?php
 
+namespace App\Entity;
 
+use Symfony\Component\Serializer\Annotation\Groups;
 
 use Doctrine\ORM\Mapping as ORM;
 
@@ -47,6 +49,52 @@ class Follows
      * })
      */
     private $follower;
+
+    public function getId(): int
+    {
+        return $this->id;
+    }
+
+    public function setId(int $id): void
+    {
+        $this->id = $id;
+    }
+
+    /**
+     * @return DateTime|string|null
+     */
+    public function getCreatedAt()
+    {
+        return $this->createdAt;
+    }
+
+    /**
+     * @param DateTime|string|null $createdAt
+     */
+    public function setCreatedAt($createdAt): void
+    {
+        $this->createdAt = $createdAt;
+    }
+
+    public function getFollowed(): Users
+    {
+        return $this->followed;
+    }
+
+    public function setFollowed(Users $followed): void
+    {
+        $this->followed = $followed;
+    }
+
+    public function getFollower(): Users
+    {
+        return $this->follower;
+    }
+
+    public function setFollower(Users $follower): void
+    {
+        $this->follower = $follower;
+    }
 
 
 }

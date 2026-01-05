@@ -1,6 +1,8 @@
 <?php
 
+namespace App\Entity;
 
+use Symfony\Component\Serializer\Annotation\Groups;
 
 use Doctrine\ORM\Mapping as ORM;
 
@@ -55,5 +57,59 @@ class UserTopic
      */
     private $user;
 
+    public function getId(): int
+    {
+        return $this->id;
+    }
 
+    public function setId(int $id): void
+    {
+        $this->id = $id;
+    }
+
+    public function getContent(): ?string
+    {
+        return $this->content;
+    }
+
+    public function setContent(?string $content): void
+    {
+        $this->content = $content;
+    }
+
+    /**
+     * @return DateTime|string|null
+     */
+    public function getCreatedAt()
+    {
+        return $this->createdAt;
+    }
+
+    /**
+     * @param DateTime|string|null $createdAt
+     */
+    public function setCreatedAt($createdAt): void
+    {
+        $this->createdAt = $createdAt;
+    }
+
+    public function getTag(): Tags
+    {
+        return $this->tag;
+    }
+
+    public function setTag(Tags $tag): void
+    {
+        $this->tag = $tag;
+    }
+
+    public function getUser(): Users
+    {
+        return $this->user;
+    }
+
+    public function setUser(Users $user): void
+    {
+        $this->user = $user;
+    }
 }

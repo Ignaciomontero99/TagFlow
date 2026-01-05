@@ -1,6 +1,8 @@
 <?php
 
+namespace App\Entity;
 
+use Symfony\Component\Serializer\Annotation\Groups;
 
 use Doctrine\ORM\Mapping as ORM;
 
@@ -54,6 +56,62 @@ class Messages
      * })
      */
     private $sender;
+
+    public function getId(): int
+    {
+        return $this->id;
+    }
+
+    public function setId(int $id): void
+    {
+        $this->id = $id;
+    }
+
+    public function getContent(): ?string
+    {
+        return $this->content;
+    }
+
+    public function setContent(?string $content): void
+    {
+        $this->content = $content;
+    }
+
+    /**
+     * @return DateTime|string|null
+     */
+    public function getCreatedAt()
+    {
+        return $this->createdAt;
+    }
+
+    /**
+     * @param DateTime|string|null $createdAt
+     */
+    public function setCreatedAt($createdAt): void
+    {
+        $this->createdAt = $createdAt;
+    }
+
+    public function getReceiver(): Users
+    {
+        return $this->receiver;
+    }
+
+    public function setReceiver(Users $receiver): void
+    {
+        $this->receiver = $receiver;
+    }
+
+    public function getSender(): Users
+    {
+        return $this->sender;
+    }
+
+    public function setSender(Users $sender): void
+    {
+        $this->sender = $sender;
+    }
 
 
 }

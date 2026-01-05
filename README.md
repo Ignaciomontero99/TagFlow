@@ -79,13 +79,19 @@ El esquema completo y los datos iniciales se encuentran en el fichero SQL del pr
 ## 📂 Estructura del repositorio
 
 tagflow/
-├── backend/
-├── frontend/
+├── TagFlow-Backend/
+├── TagFlow-Frontend/
 ├── database/
-│   └── tagflow_full.sql
-├── docs/
-│   ├── memoria/
-│   └── anexo/
+│   └── tagflow_schema.sql
+├── Memoria/
+│   ├── Diagramas - BBDD/
+│   ├── Figma/
+│   ├── Icons + images/
+│   ├── Imagenes Mockup/Mocups sencillos/
+│   ├── Tablas descriptivas/
+│   ├── Anexo 1 - Explicación paso a paso
+│   ├── Anexo 2 - Documentación para el usuario.
+│   └── Memoria_Proyecto_TagFlow
 └── README.md
 
 ---
@@ -93,7 +99,7 @@ tagflow/
 ## 🚀 Instalación (entorno local)
 
 ### Base de datos
-mysql -u usuario -p < tagflow_full.sql
+mysql -u usuario -p < tagflow_schema.sql
 
 ### Backend
 cd backend  
